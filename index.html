@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoría de Sistemas Autónomos | Ingeniero Superior en Informática</title>
+    <meta name="description" content="Auditoría técnica-social especializada en garantizar que los sistemas autónomos sirvan a humanos, no al revés">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">AuditoríaAutónoma</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#metodologia" class="nav-link">Metodología</a>
+                <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+                <a href="#contacto" class="nav-link nav-cta">Contactar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="credibility-badge">
+                    <span>🎓 Ingeniero Superior en Informática</span>
+                    <span>⚖️ Informes con validez legal</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Garantizo</span> que sus sistemas autónomos 
+                    <span class="highlight">sirvan a humanos</span>, no al revés
+                </h1>
+                <p class="hero-subtitle">
+                    Auditoría técnica-social especializada en detectar cuándo la IA erosiona 
+                    el control humano. Para empresas que innovan con responsabilidad.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary" onclick="scrollToContact()">
+                        Solicitar Auditoría Exploratoria
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToMethodology()">
+                        Ver Metodología →
+                    </button>
+                </div>
+                
+                <!-- Trust indicators -->
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <span class="trust-number">50+</span>
+                        <span class="trust-label">Puntos de auditoría</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">5D</span>
+                        <span class="trust-label">Metodología propia</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">100%</span>
+                        <span class="trust-label">Confidencial</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Visual element -->
+            <div class="hero-visual">
+                <div class="code-snippet">
+                    <pre><code>if (human_agency < threshold) {
+    alert("Riesgo de agency hijacking");
+    recommend_override_mechanisms();
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios de Auditoría Especializada</h2>
+            <p class="section-subtitle">Soluciones adaptadas a diferentes niveles de profundidad y urgencia</p>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">🚀</div>
+                        <h3>Auditoría Express</h3>
+                        <div class="service-price">4.500€</div>
+                    </div>
+                    <div class="service-duration">2 días • Informe ejecutivo</div>
+                    <ul class="service-features">
+                        <li>Evaluación de 50 puntos críticos</li>
+                        <li>Análisis de riesgos inmediatos</li>
+                        <li>3 recomendaciones prioritarias</li>
+                        <li>Checklist personalizado</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="scrollToContact()">Solicitar información</button>
+                </div>
+                
+                <!-- Service 2 - Featured -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Más Popular</div>
+                    <div class="service-header">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Auditoría Integral</h3>
+                        <div class="service-price">12.000€</div>
+                    </div>
+                    <div class="service-duration">1 semana • Dashboard incluido</div>
+                    <ul class="service-features">
+                        <li>Evaluación 5 dimensiones completas</li>
+                        <li>Análisis técnico + entrevistas usuarios</li>
+                        <li>Dashboard de seguimiento personalizado</li>
+                        <li>Soporte en implementación (4 horas)</li>
+                        <li>Certificado de auditoría</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="scrollToContact()">Solicitar propuesta</button>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">📊</div>
+                        <h3>Asesoría Continua</h3>
+                        <div class="service-price">2.000€/mes</div>
+                    </div>
+                    <div class="service-duration">Auditoría continua • Soporte mensual</div>
+                    <ul class="service-features">
+                        <li>Monitoreo proactivo de sistemas</li>
+                        <li>Alertas tempranas de riesgos</li>
+                        <li>Consultoría estratégica mensual</li>
+                        <li>Actualizaciones normativas</li>
+                        <li>Acceso a herramientas propias</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="scrollToContact()">Programar llamada</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="metodologia" class="methodology">
+        <div class="container">
+            <h2 class="section-title">Metodología Propia de 5 Dimensiones</h2>
+            <p class="section-subtitle">Enfoque integral que combina análisis técnico con comprensión humana</p>
+            
+            <div class="dimensions-grid">
+                <div class="dimension-card">
+                    <div class="dimension-number">01</div>
+                    <h3>Evaluación Técnica</h3>
+                    <p>Análisis de arquitectura, puntos de fallo y capacidades reales del sistema autónomo</p>
+                    <div class="dimension-tools">
+                        <span class="tool-tag">FMEA</span>
+                        <span class="tool-tag">Análisis arquitectura</span>
+                        <span class="tool-tag">Pruebas de estrés</span>
+                    </div>
+                </div>
+                
+                <div class="dimension-card">
+                    <div class="dimension-number">02</div>
+                    <h3>Interacción Humana</h3>
+                    <p>Estudio etnográfico de la experiencia real de usuarios con el sistema</p>
+                    <div class="dimension-tools">
+                        <span class="tool-tag">Observación</span>
+                        <span class="tool-tag">Entrevistas</span>
+                        <span class="tool-tag">Diarios de uso</span>
+                    </div>
+                </div>
+                
+                <div class="dimension-card">
+                    <div class="dimension-number">03</div>
+                    <h3>Diseño de Interfaz</h3>
+                    <p>Auditoría de transparencia, explicabilidad y puntos de override</p>
+                    <div class="dimension-tools">
+                        <span class="tool-tag">Heuristic evaluation</span>
+                        <span class="tool-tag">Dark patterns</span>
+                        <span class="tool-tag">UX audit</span>
+                    </div>
+                </div>
+                
+                <div class="dimension-card">
+                    <div class="dimension-number">04</div>
+                    <h3>Ética y Impacto</h3>
+                    <p>Evaluación de sesgos, consecuencias no intencionadas y responsabilidad</p>
+                    <div class="dimension-tools">
+                        <span class="tool-tag">Análisis de sesgos</span>
+                        <span class="tool-tag">Impact assessment</span>
+                        <span class="tool-tag">Ethical matrix</span>
+                    </div>
+                </div>
+                
+                <div class="dimension-card">
+                    <div class="dimension-number">05</div>
+                    <h3>Cumplimiento Normativo</h3>
+                    <p>Verificación de GDPR, Ley de IA Europea y estándares sectoriales</p>
+                    <div class="dimension-tools">
+                        <span class="tool-tag">GDPR compliance</span>
+                        <span class="tool-tag">AI Act</span>
+                        <span class="tool-tag">Sector standards</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Process Visualization -->
+            <div class="process-flow">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Diagnóstico Inicial</div>
+                    <div class="step-desc">Análisis contexto y definición alcance</div>
+                </div>
+                <div class="process-connector">→</div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Evaluación Multidimensional</div>
+                    <div class="step-desc">Aplicación metodología 5D</div>
+                </div>
+                <div class="process-connector">→</div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Análisis y Recomendaciones</div>
+                    <div class="step-desc">Priorización riesgos y soluciones</div>
+                </div>
+                <div class="process-connector">→</div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-title">Seguimiento</div>
+                    <div class="step-desc">Implementación y métricas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Ingeniero Superior en Informática</h2>
+                    <p class="about-description">
+                        Especializado en la intersección entre sistemas autónomos y agencia humana. 
+                        Combino profundidad técnica con comprensión psicológica para auditar 
+                        sistemas que respeten y potencien el control humano.
+                    </p>
+                    
+                    <div class="expertise-list">
+                        <div class="expertise-item">
+                            <span class="expertise-icon">🎯</span>
+                            <div>
+                                <strong>Auditoría Técnico-Social</strong>
+                                <p>Enfoque único que integra análisis técnico con factores humanos</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="expertise-icon">⚖️</span>
+                            <div>
+                                <strong>Capacidad Legal Plena</strong>
+                                <p>Titulación oficial para emitir informes con validez jurídica</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="expertise-icon">🛡️</span>
+                            <div>
+                                <strong>Seguro Responsabilidad Civil</strong>
+                                <p>Protección adicional para clientes y proyectos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <!-- Placeholder for avatar/image -->
+                    <div class="avatar-placeholder">
+                        <div class="avatar-icon">👨‍💼</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Iniciar Conversación</h2>
+            <p class="section-subtitle">Primera consulta sin compromiso • Respuesta en 24 horas</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>¿Por dónde empezar?</h3>
+                    <p>Compartíme los detalles de su sistema y preocupaciones específicas. Le enviaré una evaluación preliminar sin coste.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>tu.email@auditoriaautonoma.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <span>Respuesta en 24 horas</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🛡️</span>
+                            <span>100% confidencial</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="systemType">¿Qué tipo de sistema necesita auditar?</label>
+                        <select id="systemType" required>
+                            <option value="">Seleccionar tipo...</option>
+                            <option value="recommendation">Sistema de recomendación</option>
+                            <option value="assistant">Asistente virtual/chatbot</option>
+                            <option value="vehicle">Vehículo autónomo</option>
+                            <option value="robot">Robot industrial/colaborativo</option>
+                            <option value="other">Otro sistema autónomo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="concern">¿Cuál es su principal preocupación?</label>
+                        <textarea 
+                            id="concern" 
+                            placeholder="Ej: Nuestro algoritmo de crédito puede estar mostrando sesgos, o nuestros usuarios se quejan de falta de control sobre las recomendaciones..."
+                            required
+                        ></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email de contacto</label>
+                        <input type="email" id="email" placeholder="su.email@empresa.com" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        📨 Enviar Consulta
+                    </button>
+                    
+                    <p class="form-note">
+                        ⚡ Le contactaré en <strong>24 horas</strong> para una llamada exploratoria sin compromiso.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <span class="logo-icon">🛡️</span>
+                        <span class="logo-text">AuditoríaAutónoma</span>
+                    </div>
+                    <p>Garantizando que los sistemas autónomos sirvan a humanos</p>
+                </div>
+                
+                <div class="footer-legal">
+                    <p>&copy; 2024 AuditoríaAutónoma. Todos los derechos reservados.</p>
+                    <p>Ingeniero Superior en Informática • Informes con validez legal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
